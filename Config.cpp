@@ -1,6 +1,6 @@
 #include "Config.h"
 #include <Windows.h>
-#include"menu.h"
+#include"Menu.h"
 
 void Config::init(Menu &menu)
 {

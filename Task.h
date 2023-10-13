@@ -2,8 +2,11 @@
 #include<ctime>
 
 struct Task {
-	char name[256];
+	const char* name;
 	int priority;
-	char opisanie[256];
-	tm dadline;
+	const char* opisanie;
+	tm deadline;
+
+	void show();
+	void fillByUser();
 };

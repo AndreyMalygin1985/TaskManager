@@ -5,4 +5,7 @@
 struct  TaskCollection {
 	Task* Tasks;
 	size_t size;
+
+	void show();
+	void add();
 };

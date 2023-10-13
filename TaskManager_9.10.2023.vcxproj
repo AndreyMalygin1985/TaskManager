@@ -129,12 +129,14 @@
   <ItemGroup>
     <ClCompile Include="Config.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskCollection.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h" />
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="option.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Option.h" />
     <ClInclude Include="Task.h" />
     <ClInclude Include="TaskCollection.h" />
   </ItemGroup>

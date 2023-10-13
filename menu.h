@@ -1,11 +1,13 @@
 #pragma once
-#include"option.h"
+#include"Option.h"
 
 struct Menu {
 	Option* options{};
-	int sizeOptions = 0;
+	size_t sizeOptions = 0;
 	int lastChoise{};
 
 	bool show();
 	void add(int num, const char* name);
+	void request();
+	bool isValid();
 };
