@@ -34,6 +34,6 @@ int main()
 			break;
 		}
 	}
-
+	tasks.save();
 	return 0;
 }

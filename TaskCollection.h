@@ -8,4 +8,6 @@ struct  TaskCollection {
 
 	void show();
 	void add();
+	void save();
+	void load();
 };

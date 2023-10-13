@@ -33,9 +33,10 @@ void Task::fillByUser()
 	cout << "Укажите название: ";
 	cin >> temp;
 	name = temp;
+	char* tempp = new char[256];
 	cout << "Укажите описание: ";
-	cin >> temp;
-	opisanie = temp;
+	cin >> tempp;
+	opisanie = tempp;
 
 
 }
