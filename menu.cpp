@@ -54,7 +54,7 @@ void Menu::add(int num, const char* name)
 	{
 		temp[i] = options[i];
 	}
-	//temp[sizeOptions] = Option{ name,num };
+	temp[sizeOptions] = Option{ name,num };
 
 	delete[] options;
 	options = temp;
